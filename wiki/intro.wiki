@@ -1,0 +1,14 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+
+Scalable Stability Selection is a distributed application that enables variable selection to be carried out on large datasets where the number of variables far exceeds the number of observations.  We designed it for genetic association studies, taking advantage of the compact properties of genotype data.  However it is compatible with continuous valued data as well.  The program uses OpenCL to carry out data parallel calculations on GPU devices, and MPI to distribute the computational and memory load across multiple hosts.  More information can be found here.
+
+
+=  Requirements  =
+Although in principle the following requirements are compatible across all environments, we have tested the following in a Linux environment:
+
+  * MPI implementation
+  * OpenCL implementation
+  * C++ compiler
