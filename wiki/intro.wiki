@@ -12,3 +12,17 @@ Although in principle the following requirements are compatible across all envir
   * MPI implementation
   * OpenCL implementation
   * C++ compiler
+
+= Installation =
+
+Installing MPICH2 (a popular implementation of MPI) can be fairly straightforward if you use a package repository such as yum.  As root, you can type
+
+yum install mpich2
+
+You can test that MPI is running by typing the command
+
+/usr/lib64/mpich2/bin/mpiexec -np 2 echo Hello
+
+which should output Hello twice (each processor prints it once).
+
+You will next to install a device driver for the GPU.
