@@ -25,6 +25,10 @@ You can test that MPI is running by typing the command
 
 which should output Hello twice (each processor prints it once).
 
-You will next to install a device driver for the GPU.  You can install the OpenCL SDK from AMD from 
+You will next to install a device driver for the GPU.  For nVidia:
+
+http://developer.nvidia.com/cuda-toolkit-40
+
+You can install the OpenCL SDK from AMD from 
 
 http://developer.amd.com/sdks/AMDAPPSDK/downloads/Pages/default.aspx#one
